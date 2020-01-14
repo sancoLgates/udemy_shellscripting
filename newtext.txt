@@ -1,2 +1,2 @@
-hello thereasdasd
-added
+echo hello thereasdasd
+echo added

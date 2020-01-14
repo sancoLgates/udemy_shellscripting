@@ -14,3 +14,59 @@
 -mv
 -rm
 -cp
+-redirect (>)
+-pipe (|)
+-find
+-ls | grep node
+-ls | grep NODE
+-ls | grep -i (node/NODE included)
+-ls | grep -v node (all except node)
+
+
+awk
+awk '{print}' text1.txt 
+awk '{print $1}' text1.txt 
+awk '{print $0}' text1.txt 
+awk '{print $2}' text1.txt 
+awk '{print}' text1.txt 
+awk '{print $4}' text1.txt 
+awk '{print $5}' text1.txt 
+awk '{print $6}' text1.txt 
+awk '{print $1 $6}' text1.txt 
+awk '{print $1 $2}' text1.txt 
+awk '{print $1, $2}' text1.txt 
+awk '{print $1, $2, $5}' text1.txt 
+awk '{print $0}' text1.txt 
+awk '{print $NF}' text1.txt 
+awk '{print ($NF-1)}' text1.txt 
+awk '{print $(NF-1)}' text1.txt 
+awk '{print $(NF-1)}' text1.txt 
+awk '{print $(NF-2)}' text1.txt 
+awk '{print $(NF-2)}' text1.txt 
+awk 'NR==2 {print $0}' text1.txt 
+awk 'NR==2,5 {print $0}' text1.txt 
+awk 'NR==2,NR==5 {print $0}' text1.txt 
+awk 'NR==2;NR==5 {print $0}' text1.txt 
+awk 'NR==2;NR==5 {print $1,$4}' text1.txt 
+awk '/M/ {print}' text1.txt 
+awk '/usa/ita/ {print}' text1.txt 
+awk '/usa|ita/ {print}' text1.txt 
+awk '/i/ {print}' text1.txt 
+awk '$2/i/ {print}' text1.txt 
+awk '$2~/i/ {print}' text1.txt 
+awk '$2~/i/ {print $2,$4}' text1.txt 
+awk '$2~/i/ {print $2,$4}' text1.txt > text2.txt 
+awk '{print length($1)}' text1.txt 
+awk '{print $1, length($1)}' text1.txt 
+awk '{print $1, length($1), $5}' text1.txt 
+awk 'NR==2 {print $1, length($1), $5}' text1.txt
+
+-sudo
+-chown
+-chmod
+-$ variables
+-aliases
+-read
+read -p "type your age " age
+read -sp "type your password " password
+
