@@ -1,0 +1,6 @@
+README.md
+newtext
+newtext.txt
+newtext2.txt
+sect1.txt
+tmp.txt

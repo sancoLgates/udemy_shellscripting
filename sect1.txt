@@ -1,0 +1,16 @@
+-date
+-whoami
+-echo
+-say
+-cal
+-ps -ax | grep Postman
+-killall Postman
+-pwd -> present working directory
+-ls
+-cd
+-file
+-open . (open the pwd)
+-mkdir
+-mv
+-rm
+-cp
