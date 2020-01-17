@@ -1,0 +1,6 @@
+echo hello thereasdasd
+echo added
+ 
+********
+1:echo hello thereasdasd
+2:echo added
